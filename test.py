@@ -5,7 +5,7 @@ from multiply import multiply
 class TestSum(unittest.TestCase):
     def test_1(self):
         result1 = multiply([10, 5])
-        self.assertEqual(result1, 0)
+        self.assertEqual(result1, 50)
     def test_2(self):
         result2 = multiply([20, 0])
         self.assertEqual(result2, 0)
